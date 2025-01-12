@@ -16,3 +16,5 @@
   (interactive)
   (let ((selection (buffer-substring (region-beginning) (region-end))))
     (wl-copy/send-text selection)))
+
+(provide 'wl-copy)
